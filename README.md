@@ -55,16 +55,15 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <img src="https://i.imgur.com/ZbMWVag.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
 <br />
-<b>Succesfully Installed Server 2019 ISO and Windows 10 on Virtual Machine</b> <br/>
-<img src="https://i.imgur.com/JE7zCDh.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<br />
+<b>Now I have to figure out which NIC is Internet and which NIC is internal. Ethernet 1 renamed to _INTERNET1_ It is internet NIC because its a COMCAST DNS Server IPv4 address</b> <br/>
+<img src="https://i.imgur.com/v3nA5qW.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
 <br />
 <br />
-<b>Now I have to figure out which NIC is our NAT. It is Ethernet0 because its DNS is localdomain</b> <br/>
-<img src="https://i.imgur.com/JE7zCDh.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<b>Ethernet 2 Nic is Internal Nic because of the Autoconfiguration IPv4 has been sent to the DHCP and returned by the server as automatically assigned and Ethernet 2 has been renamed to X_Internal_X1
+<img src="https://i.imgur.com/5reINZo.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
-<br />
-<img src="https://i.imgur.com/mjczWGf.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
 <br />
 <b>I rename the adapters so it is easier for me to tell which is which and it is important later on when setting up the DC and DHCP</b> <br/>
