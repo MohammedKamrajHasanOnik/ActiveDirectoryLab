@@ -97,9 +97,9 @@ https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/d
 <br />
 <br />
 <p align="center">
-<b>When the server is promoted to a domain, it forces a restart. When I log back in you can see that the domain was created successfully because my admin account now have MYDOMAIN in front of it!</b> <br/>
+<b> The server has been upgraded to a domain, it forces a restart, I log in and I see MYDOMAIN in front of my administrator</b> <br/>
 </p>
-<img src="https://i.imgur.com/BmLk2Gc.jpg" height="80%" width="80%" alt="Renaming the PC"/>
+<img src="https://i.imgur.com/BNoPFbh.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 <br />
 <br />
 <p align="center">
