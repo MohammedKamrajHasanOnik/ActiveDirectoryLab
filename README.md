@@ -30,8 +30,14 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <img src="https://i.imgur.com/ceuZrI3.jpg"/>
 <br />
 <br />
-<b>Creating Server 2019 and assigning it 2048mb memory ram approx 2gb VM</b> <br/>
+<br />
+<b>Creating Server 2019, assigning it 2048mb memory ram approx 2gb and 3 processors VM</b> <br/>
 <img src="https://i.imgur.com/nqjMOCy.jpg"/>
+<br />
+<br />
+<br/>
+<b>Assigning it 2048mb memory ram approx 2gb and 3 processors VM</b> <br/>
+<img src="https://i.imgur.com/3rNQbeE.jpg"/>
 <br />
 <br />
 <br/>
@@ -39,8 +45,19 @@ This project is a guide of how I created an Active Directory home lab Environmen
  <img src="https://i.imgur.com/37XGBtj.jpg" height="80%" width="80%" alt="Configuring the Network Adapter for the Domain Controller Virtual Machine"/>
 <br />
 <br />
+<br />
+<b>Succesfully Installed Windows 10 on Server 2019 ISO on Windows 10</b> <br/>
+<img src="https://i.imgur.com/KU3zbLY.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<br />
+<br />
+<br />
 <b>After downloading Windows Server 2019 on the Virtual Machine the first thing I have to do as follows is too configure the two network Adapters I have. One is dedicated to the internet which is running NAT and one is the dedicated internal VM network</b> <br/>
 <img src="https://i.imgur.com/ZbMWVag.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<br />
+<br />
+<b>Succesfully Installed Server 2019 ISO and Windows 10 on Virtual Machine</b> <br/>
+<img src="https://i.imgur.com/JE7zCDh.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<br />
 <br />
 <br />
 <b>Now I have to figure out which NIC is our NAT. It is Ethernet0 because its DNS is localdomain</b> <br/>
