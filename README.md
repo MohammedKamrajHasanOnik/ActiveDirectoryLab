@@ -71,19 +71,17 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <br />
 <br />
 <br />
-<b> I fix the Internal network adapter and assign it the IP address based on the diagram above (172.16.0.1) I do not have to give it a default gateway because the Domain Controller as such is the gateway. As for the DNS server I assign it an IP based on the diagram a loop back address which will ping itself as required for installing Active Directory. </b> <br/>
+<b> I resolve the Internal network adapter and assign it the IP address based on the diagram above (172.16.0.1) I do not have to give it a default gateway because the Domain Controller as such is the gateway. As for the DNS server I assign it an IP based on the diagram insinuated, a loop back address which will ping itself as required for installing Active Directory. </b> <br/>
 <img src="https://i.imgur.com/FZ1VhvZ.jpg"/>
 <br />
 <br />
-<b>Now I configure the Internal network adapter and assign it an IP address based on the diagram above (172.16.0.1) and I do not need to give it a default gateway because the Domain Controller is the gateway. As for the DNS server I assign it an IP based on the diagram because when we install Active Directory it will install DNS. I set it as a loopback address so it pings itself</b> <br/>
-<img src="https://i.imgur.com/JIPk50Q.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<br />
+<b>Since I know which network adapter is Internet NIC and Internal NIC Internal and External. I rename the pc from Domain Controller to DController as shown I have also restarted it as required and went back into settings and checked. This prompts a restart which is required</b> <br/>
+<img src="https://i.imgur.com/zGWGDNS.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 <br />
 <br />
-<b>Now that I know which network adapter is our external and internal, I go ahead and rename the PC from the long complicated name is has now to just DC (Domain Controller). This forces a restart, which is fine</b> <br/>
-<img src="https://i.imgur.com/TklrxzC.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 <br />
-<br />
-<b>After booting back in I start the process of downloading Active Directory. Video cut short but it downloads successfully.</b> <br/>
+<b>After rebooting in I download Active Directory. Video cut short but it downloads successfully.</b> <br/>
 
 https://user-images.githubusercontent.com/108043108/176958623-4276b4d1-3c6e-469c-8875-49007d003aa2.mp4
 
