@@ -83,14 +83,16 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <br />
 <b>After rebooting in I download Active Directory with its additional required features.</b> <br/>
 
+</p> 
 https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/93e97d89-b264-4be8-b33b-7852062a0eba
+
 <br />
 <br />
 <p align="center">
-<b>I installed Active Directory Domain Services, but we never actually set the server (or computer) as the domain. Now I have to actually create the domain</b> <br/>
+<b>I installed Active Directory Domain Services, but have not let the computer account be as the domain. Now I have to actually create the domain, (video is a bit lengthy skipped video however reboot needed)</b> <br/>
 </p>
 
-https://user-images.githubusercontent.com/108043108/176959446-c4992d67-9bdc-4a5b-8229-e6d18850e29d.mp4
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/de7bcc0a-6816-4b25-9ca3-066591356c31
 
 <br />
 <br />
