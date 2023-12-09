@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab With Bulk User Creation(Educational Purposes followed credit to JonCyberGuy)</h1>
 
 <h2>Description</h2>
-This project is a walkthrough of how I created an Active Directory home lab Environment using VMWare. I set up a Microsoft Server to run Active Directory on it. I then configure a Domain Controller that will allow me to run a domain. After that I ran a Powershell script to create over 1000 users in Active Directory and proceed to log into those newly created accounts on another client that uses the domain I set up to connect to the internet. This lab simulates a business environment. In this lab I'll need a Microsoft Server 2019 ISO, A Windows 10 Enterprise ISO, VMWare and a Powershell script.
+This project is a guide of how I created an Active Directory home lab Environment using VMWare. I set up a Microsoft Server to run Active Directory on it. I then configure a Domain Controller this will allow me to run a domain. After that I ran a Powershell script to create users in Active Directory and executed those log into to the new created accounts on another client that uses the domain I set up to connect to the internet. This lab simulates a business environment. Within this lab I will need as follows  Microsoft Server 2019 ISO, A Windows 10 Enterprise ISO, VMWare and a Powershell script.
 <br />
 
 <h2>Languages and Utilities Used</h2>
@@ -12,33 +12,35 @@ This project is a walkthrough of how I created an Active Directory home lab Envi
 
 <h2>Environments Used </h2>
 
-- <b>VMWare</b>
+- <b>Oracle VM VirtualBox</b>
 - <b>Microsoft Server 2019</b>
 - <b>Windows 10</b> (21H2)
 
-<h2>Links</h2>
+<h2>Links to programs and scripts required</h2>
 
-- <b>VMWare:</b> https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html
-- <b>Microsoft Server 2019:</b> https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
+- <b>Oracle Virtual Box VMWare:</b> https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-Win.exe
+- <b>Oracle Virtual Box Extension Pack:</b> https://download.virtualbox.org/virtualbox/7.0.12/Oracle_VM_VirtualBox_Extension_Pack-7.0.12.vbox-extpack
+- <b>Microsoft 2019 Server ISO:</b> https://www.microsoft.com/en-us/evalcenter/download-windows-server-2019
 - <b>Windows 10 ISO:</b> https://www.microsoft.com/en-us/software-download/windows10
 
-<h2 align="center">Program walk-through</h2>
+<h2 align="center">Program guide</h2>
 
 <p align="center">
-<b>The network diagram I'll be using for this project</b> <br/>
-<img src="https://i.imgur.com/IfxvoYS.png" height="80%" width="80%" alt="Network Diagram"/>
+<b>The network diagram as shown I will be utilizing for the project</b> <br/>
+<img src="https://i.imgur.com/ceuZrI3.jpg"/>
 <br />
 <br />
-<b>For the Virtual Machine that will be hosting my Domain Controller, I need two network adapters. I need the NAT that will use my host IP address from my home router and an Internal Network Adapter so that my DC can communicate with other Virtual Machines. For the Internal Network I will be using VMnet0. Refer to the diagram at the beginning</b> <br/>
-<img src="https://i.imgur.com/UHBjxOd.jpg" height="80%" width="80%" alt="Configuring the Network Adapter for the Domain Controller Virtual Machine"/>
+<b>Creating Server 2019 and assigning it 2048mb memory ram approx 2gb VM</b> <br/>
+<img src="https://i.imgur.com/nqjMOCy.jpg"/>
 <br />
 <br />
 <br/>
-<img src="https://i.imgur.com/7CLcFGU.jpg" height="80%" width="80%" alt="Configuring the Network Adapter for the Domain Controller Virtual Machine"/>
+<b>Allocating virtual hard disk size of 20gb</b> <br/>
+ <img src="https://i.imgur.com/37XGBtj.jpg" height="80%" width="80%" alt="Configuring the Network Adapter for the Domain Controller Virtual Machine"/>
 <br />
 <br />
-<b>After downloading Windows Server 2019 on the Virtual Machine the first thing I have to do is configure the two network Adapters I have. One is the external NIC and one is the Internal NIC</b> <br/>
-<img src="https://i.imgur.com/SwAH8sj.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<b>After downloading Windows Server 2019 on the Virtual Machine the first thing I have to do as follows is too configure the two network Adapters I have. One is dedicated to the internet which is running NAT and one is the dedicated internal VM network</b> <br/>
+<img src="https://i.imgur.com/ZbMWVag.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
 <br />
 <b>Now I have to figure out which NIC is our NAT. It is Ethernet0 because its DNS is localdomain</b> <br/>
