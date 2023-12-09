@@ -82,7 +82,8 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <br />
 <br />
 <b>After rebooting in I download Active Directory with its additional required features.</b> <br/>
-https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/93e97d89-b264-4be8-b33b-7852062a0eba
+
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/93e97d89-b264-4be8-b33b-7852062a0eba.mp4
 <br />
 <br />
 <p align="center">
@@ -94,11 +95,7 @@ https://user-images.githubusercontent.com/108043108/176959446-c4992d67-9bdc-4a5b
 <br />
 <br />
 <p align="center">
-<b>When the server is promoted to a domain, it forces a restart. When I log back in you can see that the domain was created successfully beca
-
-https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/b07c4513-f942-4598-97e4-65edb8c2a8dd
-
-use my admin account now have MYDOMAIN in front of it!</b> <br/>
+<b>When the server is promoted to a domain, it forces a restart. When I log back in you can see that the domain was created successfully because my admin account now have MYDOMAIN in front of it!</b> <br/>
 </p>
 <img src="https://i.imgur.com/BmLk2Gc.jpg" height="80%" width="80%" alt="Renaming the PC"/>
 <br />
