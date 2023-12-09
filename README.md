@@ -61,13 +61,13 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <br />
 <br />
 <br />
-<b>Ethernet 2 Nic is Internal Nic because of the Autoconfiguration IPv4 has been sent to the DHCP and returned by the server as automatically assigned and Ethernet 2 has been renamed to X_Internal_X1
+<b>Ethernet 2 Nic is Internal Nic because of the Autoconfiguration IPv4 has been sent to the DHCP and unable to find IPv4 address and returned by the server as automatically assigned and Ethernet 2 has been renamed to X_Internal_X1
 <img src="https://i.imgur.com/5reINZo.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
 <br />
 <br />
-<b>I rename the adapters so it is easier for me to tell which is which and it is important later on when setting up the DC and DHCP</b> <br/>
-<img src="https://i.imgur.com/iiYpjCy.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<b> I fix the Internal network adapter and assign it the IP address based on the diagram above (172.16.0.1) I do not have to give it a default gateway because the Domain Controller as such is the gateway. As for the DNS server I assign it an IP based on the diagram a loop back address which will ping itself as required for installing Active Directory. </b> <br/>
+<img src="https://i.imgur.com/FZ1VhvZ.jpg"/>
 <br />
 <br />
 <b>Now I configure the Internal network adapter and assign it an IP address based on the diagram above (172.16.0.1) and I do not need to give it a default gateway because the Domain Controller is the gateway. As for the DNS server I assign it an IP based on the diagram because when we install Active Directory it will install DNS. I set it as a loopback address so it pings itself</b> <br/>
