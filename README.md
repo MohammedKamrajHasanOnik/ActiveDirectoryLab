@@ -82,9 +82,7 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <br />
 <br />
 <b>After rebooting in I download Active Directory with its additional required features.</b> <br/>
-
-
-
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/93e97d89-b264-4be8-b33b-7852062a0eba
 <br />
 <br />
 <p align="center">
