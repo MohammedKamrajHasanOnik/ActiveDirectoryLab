@@ -61,8 +61,13 @@ This project is a guide of how I created an Active Directory home lab Environmen
 <br />
 <br />
 <br />
-<b>Ethernet 2 Nic is Internal Nic because of the Autoconfiguration IPv4 has been sent to the DHCP and unable to find IPv4 address and returned by the server as automatically assigned and Ethernet 2 has been renamed to X_Internal_X1
+<b>Ethernet 2 Nic is Internal Nic because of the Autoconfiguration IPv4 has been sent to the DHCP and unable to find IPv4 address and returned by the server as automatically assigned and Ethernet 2 has been renamed to X_Internal_X1</b> <br/>
 <img src="https://i.imgur.com/5reINZo.jpg" height="80%" width="80%" alt="Configuring the Network"/>
+<br />
+<br />
+<br />
+<b/> As both of the ethernet adapters names have changed and visible as depicted Ethernet 1 named as _INTERNET1_ and Ethernet 2 named as X_Internal_X1</b> <br/>
+<img src="https://i.imgur.com/9T3ZnJl.jpg" height="80%" width="80%" alt="Configuring the Network"/>  
 <br />
 <br />
 <br />
