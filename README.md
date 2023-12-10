@@ -138,13 +138,14 @@ https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/c
   <br />
   <br />
  <br />
- <b>Creating powershell script for all our users in active directory, sample users</b> <br/>
+ <b>Creating powershell script for all our 1000 more or less users in active directory, sample users</b> <br/>
 </p>
-https://user-images.githubusercontent.com/108043108/176961801-c6ed71d1-4f12-4775-82d5-853cac5260da.mp4
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/cb95f1ec-affb-4521-9719-2f6b1fda925b
+
 <br />
 <br />
 <p align="center">
-<b>Great! Now that Remote Access is installed and configured, it is now time to Install a DHCP Server. This will allow our Windows 10 clients to be assigned an IP address and allow them to browse the internet.</b> <br/>
+<b>Great! now the last few things to do is to create our windows 10 virtual machine an internal nic should give its ip address.</b> <br/>
 </p>
 
 https://user-images.githubusercontent.com/108043108/176962485-229ae237-b9e9-4178-b857-4741d318d33e.mp4
