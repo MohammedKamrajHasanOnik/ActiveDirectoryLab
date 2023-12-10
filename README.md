@@ -138,10 +138,15 @@ https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/c
   <br />
   <br />
  <br />
- <b>Creating powershell script for all our 1000 more or less users in active directory, sample users</b> <br/>
+ <b>Creating powershell script for all our 1000 more or less users in active directory, sample users and checked the users</b> <br/>
 </p>
 https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/cb95f1ec-affb-4521-9719-2f6b1fda925b
 
+<br />
+<br />
+<br />
+<b> Created windows 10 VM ISO to check <br/>
+<img src="https://i.imgur.com/UfwWh5u.jpg" height="80%" width="80%" alt="Configuring the Network"/>
 <br />
 <br />
 <p align="center">
