@@ -103,35 +103,44 @@ https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/d
 <br />
 <br />
 <p align="center">
-<b>Now instead of using the built in Admin account, I will create a dedicated domain Admin account </b> <br/>
+<b>Now the opposite of using the built in Admin account, I will create a dedicated  Admin account a-monik as illustrated in the video as well as assign with active directory user and computers organizational unit and create the account, passwords and add the admin privillage in group setting assigning Domain Admin, I also have logged into windows 10 with the new a-monik account </b> <br/>
 </p>
 
-https://user-images.githubusercontent.com/108043108/176960581-a0934287-267c-464e-8eee-8b85ae523910.mp4
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/ad7d5ce9-5db4-419e-b480-c58d979874a1
 
 <br />
 <br />
 <p align="center">
-<b>I created a domain specific admin account, but it does not have admin priviledges. I have to go into Active Directory and promote this new account to Administrator. When I do that I then log out of the built in Admin account and into my newly created Domain Admin account!</b> <br/>
+<b>I created a remote access server/ network address translation, the purpose of this is to allow when we make our windows 10 client to allow this client to be in this private virtual network in an analogy, but still have the benefits to access the internet through the domain controller, routing and remote access application settings, through RAS/NAS!</b> <br/>
 </p>
 
-https://user-images.githubusercontent.com/108043108/176961105-3f8df2e0-f1e2-490b-a457-e1dd3fc2470a.mp4
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/92d1d0b7-4283-4763-9dc2-a77562b30657
 
 <br />
 <br />
 <p align="center">
-<b>Now I need to install and configure the RAS/NAT so that my Windows 10 client computer will be able to access the internet through the internal network via the Domain Controller</b> <br/>
+<b> Setting up the dhcp server in our domain controller, which will allow our windows 10 clients get an ip address to let them browse the internet just like an anology of a school account, DHCP DNS is set up now</b> <br/>
 </p>
 
-https://user-images.githubusercontent.com/108043108/176961534-0afd1ae0-c421-4af7-ae76-7b2cefe43bdd.mp4
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/b88997b0-3d8d-49b7-8c48-a8c728c3e404
 
 <br />
 <br />
 <p align="center">
-<b>Now that the role is installed I need to configure the Routing and Remote Access</b> <br/>
+
+ <br />
+ <br />
+ <br />
+  <b> Making a configuration to not get spam messages and let us browse the internet through the domain controller by turning of IE Enhanced Security Configuration feature </b> <br/>
 </p>
 
+https://github.com/MohammedKamrajHasanOnik/ActiveDirectoryLab/assets/152878913/c199bda1-07e8-48dc-868d-8a28abf385f8
+  <br />
+  <br />
+ <br />
+ <b>Creating powershell script for all our users in active directory, sample users</b> <br/>
+</p>
 https://user-images.githubusercontent.com/108043108/176961801-c6ed71d1-4f12-4775-82d5-853cac5260da.mp4
-
 <br />
 <br />
 <p align="center">
