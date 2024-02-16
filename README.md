@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab With Bulk User Creation</h1>
 
-<h2>(Josh Madakor Youtube Active Directory Home Labs With Bulk User Creation walkthrough followed with few changes)</h2>
+<h2>(Josh Madakor Youtube Active Directory Home Labs With Bulk User Creation walkthrough -https://www.youtube.com/watch?v=MHsI8hJmggI followed with few changes)</h2>
 
 <h2>Description</h2>
 This project is a guide of how I created an Active Directory home lab Environment using VMWare. I set up a Microsoft Server to run Active Directory on it. I then configure a Domain Controller this will allow me to run a domain. After that I ran a Powershell script to create users in Active Directory and executed those log into to the new created accounts on another client that uses the domain I set up to connect to the internet. This lab simulates a business environment. Within this lab I will need as follows  Microsoft Server 2019 ISO, A Windows 10 Enterprise ISO, VMWare and a Powershell script.
